@@ -20,7 +20,7 @@ ul>li:hover{
     color: violet;
 }
 ul > li::before{
-    content:"🚀" ;
+    content:"🚀";
 }
 a::after{
     content:"🚀";
