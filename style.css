@@ -1,0 +1,31 @@
+body{
+    font-family: Arial;
+    background-color: rgb(200, 202, 252);
+    color: black;
+}
+h1{
+    color: palevioletred;
+}
+a{
+   color: palevioletred;
+   text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+ul > li {
+     font-weight: bold;
+}
+ul>li:hover{
+    color: violet;
+}
+ul > li::before{
+    content:"🚀" ;
+}
+a::after{
+    content:"🚀";
+}
+p::first-letter{
+    font-size: 70px;
+    color: palevioletred;
+}
